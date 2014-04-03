@@ -30,12 +30,57 @@
       "id": "constates",
       "class": "",
       "Datasource": {
-        "file": "layers/constates/USA_adm1.shp"
+        "file": "layers/constates/USA_adm1.shp",
+        "id": "constates",
+        "project": "usa_rectangle_box",
+        "srs": ""
       },
       "srs-name": "autodetect",
       "srs": "",
       "advanced": {},
       "name": "constates"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -165.96558168829336,
+        -50.66966651748362,
+        177.1543791606897,
+        81.95520786930868
+      ],
+      "id": "lakes",
+      "class": "",
+      "Datasource": {
+        "file": "layers/lakes/ne_10m_lakes.shp",
+        "id": "lakes",
+        "project": "usa_rectangle_box",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "lakes"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -124.76277923583979,
+        24.520416259765852,
+        -66.94889068603516,
+        49.38329696655268
+      ],
+      "id": "constateslabels",
+      "class": "",
+      "Datasource": {
+        "file": "layers/constateslabels/USA_adm1.shp",
+        "id": "constateslabels",
+        "project": "usa_rectangle_box",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "constateslabels"
     }
   ],
   "scale": 1,
