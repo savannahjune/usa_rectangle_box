@@ -1,14 +1,14 @@
 {
   "bounds": [
-    -180,
-    -85.05112877980659,
-    180,
-    85.05112877980659
+    -156.0938,
+    -2.1089,
+    -26.7187,
+    70.1404
   ],
   "center": [
-    0,
-    0,
-    2
+    -98.4375,
+    38.8226,
+    1
   ],
   "format": "png",
   "interactivity": false,
@@ -19,6 +19,24 @@
     "style.mss"
   ],
   "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        -141.00686645507812,
+        41.6769256591798,
+        -52.618888854980455,
+        83.11062622070322
+      ],
+      "id": "canada",
+      "class": "",
+      "Datasource": {
+        "file": "layers/canada/CAN_adm0.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "canada"
+    },
     {
       "geometry": "polygon",
       "extent": [
@@ -33,11 +51,14 @@
         "file": "layers/constates/USA_adm1.shp",
         "id": "constates",
         "project": "usa_rectangle_box",
-        "srs": ""
+        "srs": "",
+        "encoding": "windows-1252"
       },
       "srs-name": "autodetect",
       "srs": "",
-      "advanced": {},
+      "advanced": {
+        "encoding": "windows-1252"
+      },
       "name": "constates"
     },
     {
@@ -54,11 +75,14 @@
         "file": "layers/lakes/ne_10m_lakes.shp",
         "id": "lakes",
         "project": "usa_rectangle_box",
-        "srs": ""
+        "srs": "",
+        "encoding": "windows-1252"
       },
       "srs-name": "autodetect",
       "srs": "",
-      "advanced": {},
+      "advanced": {
+        "encoding": "windows-1252"
+      },
       "name": "lakes"
     },
     {
@@ -75,16 +99,41 @@
         "file": "layers/constateslabels/USA_adm1.shp",
         "id": "constateslabels",
         "project": "usa_rectangle_box",
+        "srs": "",
+        "encoding": "windows-1252"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "encoding": "windows-1252"
+      },
+      "name": "constateslabels"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -118.36888885498041,
+        14.532917022705135,
+        -86.71013641357416,
+        32.718040466308636
+      ],
+      "id": "mexico",
+      "class": "",
+      "Datasource": {
+        "file": "layers/mexico/MEX_adm0.shp",
+        "id": "mexico",
+        "project": "usa_rectangle_box",
         "srs": ""
       },
       "srs-name": "autodetect",
       "srs": "",
       "advanced": {},
-      "name": "constateslabels"
+      "name": "mexico"
     }
   ],
   "scale": 1,
   "metatile": 2,
   "name": "USA Box",
-  "description": ""
+  "description": "",
+  "attribution": ""
 }

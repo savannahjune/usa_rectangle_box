@@ -15,6 +15,7 @@
 @pink: #b2e0e0;
   //#FBD8D6;
 @water: #86c8d5;
+@grey: #E7E7E7;
 @line: white;
 
 @futura_med: "Futura Medium","Function Pro Medium","Ubuntu Regular","Trebuchet MS Regular","DejaVu Sans Book";
@@ -25,9 +26,37 @@ Map {
   background-color: @water;
 }
 
+#canada {
+  line-color:#fff;
+  line-width:1;
+  polygon-opacity:1;
+  polygon-fill:@grey;
+  text-name:"[NAME_ENGLI]";
+  text-face-name: @futura_med;
+  text-character-spacing:2;
+  text-transform: uppercase;
+  text-size:15;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-radius:2;
+}
+
+#mexico {
+  line-color:#fff;
+  line-width:1;
+  polygon-opacity:1;
+  polygon-fill:@grey;
+  text-name:"[NAME_ENGLI]";
+  text-face-name: @futura_med;
+  text-character-spacing:2;
+  text-transform: uppercase;
+  text-size:15;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-radius:2;
+}
+
 #constates {
   line-color:@line;
-  line-width:0.5;
+  line-width:1;
   polygon-opacity:1;
   polygon-fill:@red;
 }
@@ -60,7 +89,7 @@ Map {
   polygon-fill:@water;
   text-name:'[name]';
   text-face-name: @futura_med;
-  text-size:11;
+  text-size:12;
   text-halo-fill:rgba(255,255,255,0.5);
   text-halo-radius:2; 
 }
@@ -79,5 +108,4 @@ Map {
     text-dy:30;
     }
 }
-
 
