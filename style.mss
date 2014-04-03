@@ -32,7 +32,7 @@ Map {
   polygon-fill:@red;
 }
 
-#constateslabels {
+#constateslabels [zoom > 3] {
   text-name:"[NAME_1]";
   text-face-name: @futura_med;
   text-character-spacing:1;
@@ -42,6 +42,27 @@ Map {
   [NAME_1 = 'Florida'] {
     text-dx:1;
     }
+}
+
+
+#lakes [zoom <= 7] [scalerank < 2] {
+  polygon-opacity:1;
+  polygon-fill:@water;
+  text-name:'[name]';
+  text-face-name: @futura_med;
+  text-size:10;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-radius:2; 
+}
+
+#lakes [zoom > 7] {
+  polygon-opacity:1;
+  polygon-fill:@water;
+  text-name:'[name]';
+  text-face-name: @futura_med;
+  text-size:11;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-radius:2; 
 }
 
 #states [zoom >= 7] {
@@ -57,16 +78,6 @@ Map {
   [NAME_1 = 'New Jersey'] {
     text-dy:30;
     }
-}
-
-#lakes [zoom > 5] {
-  polygon-opacity:1;
-  polygon-fill:@water;
-  text-name:'[name]';
-  text-face-name: @futura_med;
-  text-size:10;
-  text-halo-fill:rgba(255,255,255,0.5);
-  text-halo-radius:2; 
 }
 
 
