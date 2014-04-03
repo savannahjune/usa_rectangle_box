@@ -18,7 +18,26 @@
   "Stylesheet": [
     "style.mss"
   ],
-  "Layer": [],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        -124.76277923583979,
+        24.520416259765852,
+        -66.94889068603516,
+        49.38329696655268
+      ],
+      "id": "constates",
+      "class": "",
+      "Datasource": {
+        "file": "layers/constates/USA_adm1.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "constates"
+    }
+  ],
   "scale": 1,
   "metatile": 2,
   "name": "USA Box",
