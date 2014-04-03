@@ -17,6 +17,7 @@
 @water: #86c8d5;
 @grey: #E7E7E7;
 @line: white;
+@parks: #8BC266;
 
 @futura_med: "Futura Medium","Function Pro Medium","Ubuntu Regular","Trebuchet MS Regular","DejaVu Sans Book";
 @futura_italic: "Futura Medium Italic","Function Pro Medium Italic","Ubuntu Italic","Trebuchet MS Italic","DejaVu Sans Oblique";
@@ -94,6 +95,16 @@ Map {
   text-halo-radius:2; 
 }
 
+#nalakes [zoom > 8] {
+  polygon-opacity:1;
+  polygon-fill:@water;
+  text-name:'[name]';
+  text-face-name: @futura_med;
+  text-size:12;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-radius:2; 
+}
+
 #states [zoom >= 7] {
   text-name:"[NAME_1]";
   text-face-name: @futura_med;
@@ -108,4 +119,14 @@ Map {
     text-dy:30;
     }
 }
+
+#natparksshape [zoom > 5]{
+  polygon-opacity:1;
+  polygon-fill:@parks;
+}
+
+
+
+
+
 

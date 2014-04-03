@@ -16,7 +16,8 @@
   "maxzoom": 22,
   "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
   "Stylesheet": [
-    "style.mss"
+    "style.mss",
+    "cities"
   ],
   "Layer": [
     {
@@ -36,6 +37,27 @@
       "srs": "",
       "advanced": {},
       "name": "canada"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -118.36888885498041,
+        14.532917022705135,
+        -86.71013641357416,
+        32.718040466308636
+      ],
+      "id": "mexico",
+      "class": "",
+      "Datasource": {
+        "file": "layers/mexico/MEX_adm0.shp",
+        "id": "mexico",
+        "project": "usa_rectangle_box",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "mexico"
     },
     {
       "geometry": "polygon",
@@ -88,6 +110,42 @@
     {
       "geometry": "polygon",
       "extent": [
+        -164.28410994679615,
+        8.988348699994077,
+        -18.569996711322517,
+        82.29248688358783
+      ],
+      "id": "nalakes",
+      "class": "",
+      "Datasource": {
+        "file": "layers/nalakes/ne_10m_lakes_north_america.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "nalakes"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -167.52107747395834,
+        19.057861328125,
+        -78.15372721354167,
+        68.65547688802084
+      ],
+      "id": "natparksshape",
+      "class": "",
+      "Datasource": {
+        "file": "layers/natparks/ne_10m_parks_and_protected_lands_area.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "natparksshape"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
         -124.76277923583979,
         24.520416259765852,
         -66.94889068603516,
@@ -110,25 +168,28 @@
       "name": "constateslabels"
     },
     {
-      "geometry": "polygon",
+      "geometry": "point",
       "extent": [
-        -118.36888885498041,
-        14.532917022705135,
-        -86.71013641357416,
-        32.718040466308636
+        -179.58997888396897,
+        -85.051,
+        179.38330358817018,
+        82.48332318035943
       ],
-      "id": "mexico",
+      "id": "cities",
       "class": "",
       "Datasource": {
-        "file": "layers/mexico/MEX_adm0.shp",
-        "id": "mexico",
+        "file": "layers/cities/ne_10m_populated_places_simple.shp",
+        "id": "cities",
         "project": "usa_rectangle_box",
-        "srs": ""
+        "srs": "",
+        "encoding": "windows-1252"
       },
       "srs-name": "autodetect",
       "srs": "",
-      "advanced": {},
-      "name": "mexico"
+      "advanced": {
+        "encoding": "windows-1252"
+      },
+      "name": "cities"
     }
   ],
   "scale": 1,
