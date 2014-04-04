@@ -86,6 +86,108 @@
     {
       "geometry": "polygon",
       "extent": [
+        -157.99118261729797,
+        -51.05303741160215,
+        178.0338339830011,
+        69.76985509228818
+      ],
+      "id": "urbanareas",
+      "class": "",
+      "Datasource": {
+        "file": "layers/urbanareas/ne_10m_urban_areas.shp",
+        "id": "urbanareas",
+        "project": "usa_rectangle_box",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "urbanareas"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -167.52107747395834,
+        19.057861328125,
+        -78.15372721354167,
+        68.65547688802084
+      ],
+      "id": "natparksshape",
+      "class": "",
+      "Datasource": {
+        "file": "layers/natparksshape/ne_10m_parks_and_protected_lands_area.shp",
+        "id": "natparksshape",
+        "project": "usa_rectangle_box",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "natparksshape"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -176.7640084731439,
+        14.590750676565,
+        -52.64725244187383,
+        70.2966838677457
+      ],
+      "id": "roads",
+      "class": "",
+      "Datasource": {
+        "file": "layers/roads/ne_10m_roads_north_america.shp",
+        "id": "roads",
+        "project": "usa_rectangle_box",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "roads"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -150.08159339101002,
+        8.329046942181577,
+        -59.94810950429127,
+        64.93097565311908
+      ],
+      "id": "railroads",
+      "class": "",
+      "Datasource": {
+        "file": "layers/railroads/ne_10m_railroads_north_america.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "railroads"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -166.31509355377037,
+        9.145127671348206,
+        -27.262359178770424,
+        82.63967519738985
+      ],
+      "id": "rivers",
+      "class": "",
+      "Datasource": {
+        "file": "layers/rivers/ne_10m_rivers_north_america.shp",
+        "id": "rivers",
+        "project": "usa_rectangle_box",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "rivers"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
         -165.96558168829336,
         -50.66966651748362,
         177.1543791606897,
@@ -124,24 +226,6 @@
       "srs": "",
       "advanced": {},
       "name": "nalakes"
-    },
-    {
-      "geometry": "polygon",
-      "extent": [
-        -167.52107747395834,
-        19.057861328125,
-        -78.15372721354167,
-        68.65547688802084
-      ],
-      "id": "natparksshape",
-      "class": "",
-      "Datasource": {
-        "file": "layers/natparks/ne_10m_parks_and_protected_lands_area.shp"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {},
-      "name": "natparksshape"
     },
     {
       "geometry": "polygon",

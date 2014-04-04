@@ -17,7 +17,7 @@
 @water: #86c8d5;
 @grey: #E7E7E7;
 @line: white;
-@parks: #8BC266;
+@parks: #A0B893;
 
 @futura_med: "Futura Medium","Function Pro Medium","Ubuntu Regular","Trebuchet MS Regular","DejaVu Sans Book";
 @futura_italic: "Futura Medium Italic","Function Pro Medium Italic","Ubuntu Italic","Trebuchet MS Italic","DejaVu Sans Oblique";
@@ -66,7 +66,7 @@ Map {
   text-name:"[NAME_1]";
   text-face-name: @futura_med;
   text-character-spacing:1;
-  text-size:11;
+  text-size:12;
   text-halo-fill:rgba(255,255,255,0.5);
   text-halo-radius:2;
   [NAME_1 = 'Florida'] {
@@ -74,6 +74,28 @@ Map {
     }
 }
 
+#constateslabels [zoom >= 6] {
+  text-name:"[NAME_1]";
+  text-face-name: @futura_med;
+  text-size:18;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-radius:2;
+  text-character-spacing:1;
+}
+
+#rivers [zoom > 7] {
+  line-width:1;
+  line-color:@water;
+  text-name:'[name]';
+  text-face-name: @futura_med;
+  text-size:10;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-radius:2; 
+  text-placement-type:simple;
+  text-placement:line;
+  text-min-distance:1000px;
+  text-max-char-angle-delta: 15;
+}
 
 #lakes [zoom <= 7] [scalerank < 2] {
   polygon-opacity:1;
@@ -105,28 +127,14 @@ Map {
   text-halo-radius:2; 
 }
 
-#states [zoom >= 7] {
-  text-name:"[NAME_1]";
+#natparksshape [zoom > 5] {
+  polygon-opacity:1;
+  polygon-fill:@parks;
+  text-name:"[unit_name]";
   text-face-name: @futura_med;
-  text-size:14;
+  text-size:10;
   text-halo-fill:rgba(255,255,255,0.5);
   text-halo-radius:2;
   text-character-spacing:1;
-  [NAME_1 = 'Florida'] {
-    text-dx:20;
-    }
-  [NAME_1 = 'New Jersey'] {
-    text-dy:30;
-    }
 }
-
-#natparksshape [zoom > 5]{
-  polygon-opacity:1;
-  polygon-fill:@parks;
-}
-
-
-
-
-
 
