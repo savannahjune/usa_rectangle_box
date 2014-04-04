@@ -105,27 +105,6 @@
       "name": "urbanareas"
     },
     {
-      "geometry": "polygon",
-      "extent": [
-        -167.52107747395834,
-        19.057861328125,
-        -78.15372721354167,
-        68.65547688802084
-      ],
-      "id": "natparksshape",
-      "class": "",
-      "Datasource": {
-        "file": "layers/natparksshape/ne_10m_parks_and_protected_lands_area.shp",
-        "id": "natparksshape",
-        "project": "usa_rectangle_box",
-        "srs": ""
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {},
-      "name": "natparksshape"
-    },
-    {
       "geometry": "linestring",
       "extent": [
         -176.7640084731439,
@@ -165,27 +144,6 @@
       "name": "railroads"
     },
     {
-      "geometry": "linestring",
-      "extent": [
-        -166.31509355377037,
-        9.145127671348206,
-        -27.262359178770424,
-        82.63967519738985
-      ],
-      "id": "rivers",
-      "class": "",
-      "Datasource": {
-        "file": "layers/rivers/ne_10m_rivers_north_america.shp",
-        "id": "rivers",
-        "project": "usa_rectangle_box",
-        "srs": ""
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {},
-      "name": "rivers"
-    },
-    {
       "geometry": "polygon",
       "extent": [
         -165.96558168829336,
@@ -208,6 +166,48 @@
         "encoding": "windows-1252"
       },
       "name": "lakes"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -167.52107747395834,
+        19.057861328125,
+        -78.15372721354167,
+        68.65547688802084
+      ],
+      "id": "natparksshape",
+      "class": "",
+      "Datasource": {
+        "file": "layers/natparksshape/ne_10m_parks_and_protected_lands_area.shp",
+        "id": "natparksshape",
+        "project": "usa_rectangle_box",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "natparksshape"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -166.31509355377037,
+        9.145127671348206,
+        -27.262359178770424,
+        82.63967519738985
+      ],
+      "id": "rivers",
+      "class": "",
+      "Datasource": {
+        "file": "layers/rivers/ne_10m_rivers_north_america.shp",
+        "id": "rivers",
+        "project": "usa_rectangle_box",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "rivers"
     },
     {
       "geometry": "polygon",

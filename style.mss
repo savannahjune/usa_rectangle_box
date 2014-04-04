@@ -100,6 +100,9 @@ Map {
 #lakes [zoom <= 7] [scalerank < 2] {
   polygon-opacity:1;
   polygon-fill:@water;
+}
+
+#lakes [zoom > 5] [zoom <=7] [scalerank < 2] {
   text-name:'[name]';
   text-face-name: @futura_med;
   text-size:10;
