@@ -62,6 +62,45 @@
     {
       "geometry": "polygon",
       "extent": [
+        -178.19451843993755,
+        2.4293562370139092,
+        -80.54632924363725,
+        71.40768682118636
+      ],
+      "id": "alaskahawaii",
+      "class": "",
+      "Datasource": {
+        "file": "layers/alaskahawaii/ne_50m_admin_1_states_provinces_lakes.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "alaskahawaii"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -178.19451843993755,
+        2.4293562370139092,
+        -80.54632924363725,
+        71.40768682118636
+      ],
+      "id": "alaskahawaiilabels",
+      "class": "",
+      "Datasource": {
+        "file": "layers/alaskahawaiilabels/ne_50m_admin_1_states_provinces_lakes.shp",
+        "id": "alaskahawaiilabels",
+        "project": "usa_rectangle_box",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "alaskahawaiilabels"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
         -124.76277923583979,
         24.520416259765852,
         -66.94889068603516,

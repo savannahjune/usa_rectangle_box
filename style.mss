@@ -55,6 +55,32 @@ Map {
   text-halo-radius:2;
 }
 
+#alaskahawaii {
+  line-color:@line;
+  line-width:1;
+  polygon-opacity:1;
+  polygon-fill:@red;
+}
+
+#alaskahawaiilabels [zoom > 3] {
+  text-name:"[name]";
+  text-face-name: @futura_med;
+  text-character-spacing:1;
+  text-size:12;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-radius:2;
+}
+
+
+#alaskahawaiilabels [zoom >= 6] {
+  text-name:"[name]";
+  text-face-name: @futura_med;
+  text-size:18;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-radius:2;
+  text-character-spacing:1;
+}
+
 #constates {
   line-color:@line;
   line-width:1;
