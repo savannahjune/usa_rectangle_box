@@ -33,7 +33,7 @@
 @aeroway:           #ddd;
 
 
-#cities [zoom > 5] [scalerank < 5]{
+#cities [zoom > 5] [sov_a3 = 'USA'] [scalerank < 5]{
   marker-width:4;
   marker-fill:black;
   text-dx:4;
@@ -46,7 +46,7 @@
   text-character-spacing:1;
 }
 
-#cities [zoom > 7] [scalerank < 8] [scalerank >=5]{
+#cities [zoom > 7] [sov_a3 = 'USA'] [scalerank < 8] [scalerank >=5]{
   marker-width:4;
   marker-fill:black;
   text-dx:4;
@@ -59,7 +59,7 @@
   text-character-spacing:1;
 }
 
-#cities [zoom > 9] [scalerank <= 10]{
+#cities [zoom > 9] [sov_a3 = 'USA'] [scalerank <= 10]{
   marker-width:4;
   marker-fill:black;
   text-dx:4;
@@ -73,12 +73,12 @@
 }
 
 
-#roads [zoom > 5] [scalerank < 5] {
+#roads [zoom > 5] [country = 'United States'] [scalerank < 5] {
   line-width:1;
   line-color:@motorway_line;
 }
 
-#roads [zoom > 7] [scalerank < 7] {
+#roads [zoom > 7] [country = 'United States'] [scalerank < 7] {
   [scalerank < 5] {
   line-color:@motorway_line;
   line-width:2;}
@@ -87,7 +87,7 @@
   line-width:1;}   
 }
 
-#roads [zoom > 8] [scalerank < 9] {
+#roads [zoom > 8] [country = 'United States'] [scalerank < 9] {
   line-width:1;
   [scalerank < 5] {
   line-color:@motorway_line;}
@@ -97,7 +97,7 @@
   line-color: @primary_line;}
 }
 
-#roads [zoom > 10] [scalerank < 11] {
+#roads [zoom > 10] [country = 'United States'] [scalerank < 11] {
   line-width:1;
   [scalerank < 5] {
   line-color:@motorway_line;}
@@ -109,7 +109,7 @@
   line-color: @secondary_fill;}
 }
 
-#roads [zoom > 12] [scalerank < 13] {
+#roads [zoom > 12] [country = 'United States'] [scalerank < 13] {
   line-width:1;
   [scalerank < 5] {
   line-color:@motorway_line;}
@@ -123,7 +123,7 @@
   line-color: @standard_fill;}
 }
 
-#roads [zoom > 14] [scalerank < 20] {
+#roads [zoom > 14] [country = 'United States'] [scalerank < 20] {
   line-width:1;
   [scalerank < 5] {
   line-color:@motorway_line;}
@@ -139,7 +139,7 @@
   line-color: @pedestrian_fill;}
 }
 
-#railroads [zoom > 7] {
+#railroads [zoom > 7] [sov_a3 = 'USA'] {
   line-width:1;
   line-color:@rail_line;
 }
@@ -153,4 +153,6 @@
   polygon-opacity:1;
   polygon-fill:darken(@red, 20%);
 }
+
+
 

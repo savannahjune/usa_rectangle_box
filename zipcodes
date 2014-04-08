@@ -1,0 +1,26 @@
+/*all styling for zip codes
+*/
+
+#zipcodes [zoom > 8] {
+  line-color:black;
+  line-width:0.25;
+}
+
+#zipcodeslabels [zoom > 9] {
+  text-name: '[ZCTA5CE10]';
+  text-face-name: @futura_med;
+  text-size:10;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-radius:2;
+}
+
+
+#counties [zoom > 8] {
+  line-color:black;
+  line-width:0.25;
+  text-name: '[NAMELSAD]';
+  text-face-name: @futura_med;
+  text-size:10;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-radius:2;
+}

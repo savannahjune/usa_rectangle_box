@@ -17,87 +17,10 @@
   "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
   "Stylesheet": [
     "style.mss",
-    "cities"
+    "cities",
+    "zipcodes"
   ],
   "Layer": [
-    {
-      "geometry": "polygon",
-      "extent": [
-        -141.00686645507812,
-        41.6769256591798,
-        -52.618888854980455,
-        83.11062622070322
-      ],
-      "id": "canada",
-      "class": "",
-      "Datasource": {
-        "file": "layers/canada/CAN_adm0.shp"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {},
-      "name": "canada"
-    },
-    {
-      "geometry": "polygon",
-      "extent": [
-        -118.36888885498041,
-        14.532917022705135,
-        -86.71013641357416,
-        32.718040466308636
-      ],
-      "id": "mexico",
-      "class": "",
-      "Datasource": {
-        "file": "layers/mexico/MEX_adm0.shp",
-        "id": "mexico",
-        "project": "usa_rectangle_box",
-        "srs": ""
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {},
-      "name": "mexico"
-    },
-    {
-      "geometry": "polygon",
-      "extent": [
-        -178.19451843993755,
-        2.4293562370139092,
-        -80.54632924363725,
-        71.40768682118636
-      ],
-      "id": "alaskahawaii",
-      "class": "",
-      "Datasource": {
-        "file": "layers/alaskahawaii/ne_50m_admin_1_states_provinces_lakes.shp"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {},
-      "name": "alaskahawaii"
-    },
-    {
-      "geometry": "polygon",
-      "extent": [
-        -178.19451843993755,
-        2.4293562370139092,
-        -80.54632924363725,
-        71.40768682118636
-      ],
-      "id": "alaskahawaiilabels",
-      "class": "",
-      "Datasource": {
-        "file": "layers/alaskahawaiilabels/ne_50m_admin_1_states_provinces_lakes.shp",
-        "id": "alaskahawaiilabels",
-        "project": "usa_rectangle_box",
-        "srs": ""
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {},
-      "name": "alaskahawaiilabels"
-    },
     {
       "geometry": "polygon",
       "extent": [
@@ -144,6 +67,88 @@
       "name": "urbanareas"
     },
     {
+      "geometry": "polygon",
+      "extent": [
+        -141.00686645507812,
+        41.6769256591798,
+        -52.618888854980455,
+        83.11062622070322
+      ],
+      "id": "canada",
+      "class": "",
+      "Datasource": {
+        "file": "layers/canada/CAN_adm0.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "canada"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -118.36888885498041,
+        14.532917022705135,
+        -86.71013641357416,
+        32.718040466308636
+      ],
+      "id": "mexico",
+      "class": "",
+      "Datasource": {
+        "file": "layers/mexico/MEX_adm0.shp",
+        "id": "mexico",
+        "project": "usa_rectangle_box",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "mexico"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.15055847167966,
+        18.909858703613395,
+        179.7734069824223,
+        71.3906860351563
+      ],
+      "id": "usalabel",
+      "class": "",
+      "Datasource": {
+        "file": "layers/usa/USA_adm0.shp",
+        "id": "usalabel",
+        "project": "usa_rectangle_box",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "usalabel"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -176.684744,
+        -14.373764999999999,
+        145.830505,
+        71.341324
+      ],
+      "id": "zipcodes",
+      "class": "",
+      "Datasource": {
+        "file": "layers/zipcodes/tl_2013_us_zcta510.shp",
+        "id": "zipcodes",
+        "project": "usa_rectangle_box",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "zipcodes",
+      "status": "off"
+    },
+    {
       "geometry": "linestring",
       "extent": [
         -176.7640084731439,
@@ -175,7 +180,10 @@
       "id": "railroads",
       "class": "",
       "Datasource": {
-        "file": "layers/railroads/ne_10m_railroads_north_america.shp"
+        "file": "layers/railroads/ne_10m_railroads_north_america.shp",
+        "id": "railroads",
+        "project": "usa_rectangle_box",
+        "srs": ""
       },
       "srs-name": "autodetect",
       "srs": "",
@@ -313,6 +321,46 @@
         "encoding": "windows-1252"
       },
       "name": "cities"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -176.684744,
+        -14.373764999999999,
+        145.830505,
+        71.341324
+      ],
+      "id": "zipcodeslabels",
+      "class": "",
+      "Datasource": {
+        "file": "layers/zipcodeslabels/tl_2013_us_zcta510.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "zipcodeslabels",
+      "status": "off"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.231086,
+        -14.601813000000002,
+        179.859681,
+        71.441059
+      ],
+      "id": "counties",
+      "class": "",
+      "Datasource": {
+        "file": "layers/counties/tl_2013_us_county.shp",
+        "id": "counties",
+        "project": "usa_rectangle_box",
+        "srs": "+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs",
+      "advanced": {},
+      "name": "counties"
     }
   ],
   "scale": 1,
