@@ -72,6 +72,45 @@
   text-character-spacing:1;
 }
 
+#akcities [zoom > 5] [sov_a3 = 'USA'] [scalerank < 5]{
+  marker-width:4;
+  marker-fill:black;
+  text-dx:4;
+  text-placements: "E,S,N,W,NE,SE,NW,SW";
+  text-name:'[name]';
+  text-face-name: @futura_med;
+  text-size:15;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-radius:2; 
+  text-character-spacing:1;
+}
+
+#akcities [zoom > 7] [sov_a3 = 'USA'] [scalerank < 8] [scalerank >=5]{
+  marker-width:4;
+  marker-fill:black;
+  text-dx:4;
+  text-placements: "E,S,N,W,NE,SE,NW,SW";
+  text-name:'[name]';
+  text-face-name: @futura_med;
+  text-size:12;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-radius:2; 
+  text-character-spacing:1;
+}
+
+#akcities [zoom > 9] [sov_a3 = 'USA'] [scalerank <= 10]{
+  marker-width:4;
+  marker-fill:black;
+  text-dx:4;
+  text-placements: "E,S,N,W,NE,SE,NW,SW";
+  text-name:'[name]';
+  text-face-name: @futura_med;
+  text-size:10;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-radius:2; 
+  text-character-spacing:1;
+}
+ 
 
 #roads [zoom > 5] [country = 'United States'] [scalerank < 5] {
   line-width:1;
@@ -144,6 +183,11 @@
   line-color:@rail_line;
 }
 
+#akrailroads [zoom > 7] [sov_a3 = 'USA'] {
+  line-width:1;
+  line-color:@rail_line;
+}
+
 #urbanareas [zoom > 5] [scalerank < 4] {
   polygon-opacity:1;
   polygon-fill:darken(@red, 20%);
@@ -153,6 +197,10 @@
   polygon-opacity:1;
   polygon-fill:darken(@red, 20%);
 }
+
+
+
+
 
 
 

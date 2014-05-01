@@ -142,6 +142,40 @@ Map {
   text-halo-radius:2; 
 }
 
+#aklakes [zoom <= 7] [scalerank < 2] {
+  polygon-opacity:1;
+  polygon-fill:@water;
+}
+
+#aklakes [zoom > 5] [zoom <=7] [scalerank < 2] {
+  text-name:'[name]';
+  text-face-name: @futura_med;
+  text-size:10;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-radius:2; 
+}
+
+#aklakes [zoom > 7] {
+  polygon-opacity:1;
+  polygon-fill:@water;
+  text-name:'[name]';
+  text-face-name: @futura_med;
+  text-size:12;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-radius:2; 
+}
+
+#aknalakes [zoom > 8] {
+  polygon-opacity:1;
+  polygon-fill:@water;
+  text-name:'[name]';
+  text-face-name: @futura_med;
+  text-size:12;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-radius:2; 
+}
+
+
 #natparksshape [zoom > 5] {
   polygon-opacity:1;
   polygon-fill:@parks;
@@ -152,5 +186,21 @@ Map {
   text-halo-radius:2;
   text-character-spacing:1;
 }
+
+
+#aknatparksshape [zoom > 5] {
+  polygon-opacity:1;
+  polygon-fill:@parks;
+  text-name:"[unit_name]";
+  text-face-name: @futura_med;
+  text-size:10;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-radius:2;
+  text-character-spacing:1;
+}
+
+
+//+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs
+
 
 
