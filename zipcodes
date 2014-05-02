@@ -27,6 +27,18 @@
   text-halo-radius:2;
 }
 
+#hawaiizipcodelabels [zoom > 9] {
+  text-name: '[ZCTA5CE10]';
+  text-face-name: @futura_med;
+  text-size:10;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-radius:2;
+}
+
+#hawaiizipcodes [zoom > 8] {
+  line-color:black;
+  line-width:0.25;
+}
 
 
 #counties [zoom > 8] {
@@ -57,6 +69,11 @@
 }
 
 #akvoting [zoom > 8] {
+  line-color:black;
+  line-width:0.25;
+}
+
+#hawaiivoting [zoom > 8] {
   line-color:black;
   line-width:0.25;
 }

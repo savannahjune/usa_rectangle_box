@@ -81,6 +81,14 @@ Map {
   polygon-fill:@red;
 }
 
+#hawaiishape {
+  line-color:@line;
+  line-width:1;
+  polygon-opacity:1;
+  polygon-fill:@red;
+}
+
+
 #constateslabels [zoom > 3] {
   text-name:"[NAME_1]";
   text-face-name: @futura_med;
@@ -123,6 +131,15 @@ Map {
   text-character-spacing:1;
 }
 */
+
+#hawaiishapelabel [zoom > 3] {
+  text-name:"[name]";
+  text-face-name: @futura_med;
+  text-character-spacing:1;
+  text-size:16;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-radius:2;
+ }
 
 #rivers [zoom > 7] {
   line-width:1;

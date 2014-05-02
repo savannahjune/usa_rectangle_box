@@ -67,6 +67,24 @@
     {
       "geometry": "polygon",
       "extent": [
+        -177.3904846720835,
+        18.96390918584938,
+        -154.8041875763537,
+        28.221176384689265
+      ],
+      "id": "hawaiishape",
+      "class": "",
+      "Datasource": {
+        "file": "layers/hawaiishape/ne_50m_admin_1_states_provinces_lakes.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "hawaiishape"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
         -157.99118261729797,
         -51.05303741160215,
         178.0338339830011,
@@ -103,6 +121,45 @@
       "srs": "",
       "advanced": {},
       "name": "akurbanareas"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -157.99118261729797,
+        21.254189924000187,
+        -157.716678683464,
+        21.411114877733937
+      ],
+      "id": "hawaiiurbanareas",
+      "class": "",
+      "Datasource": {
+        "file": "layers/hawaiiurbanareas/ne_10m_urban_areas.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "hawaiiurbanareas"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -177.3904846720835,
+        18.96390918584938,
+        -154.8041875763537,
+        28.221176384689265
+      ],
+      "id": "hawaiishapelabel",
+      "class": "",
+      "Datasource": {
+        "file": "layers/hawaiishapelabel/ne_50m_admin_1_states_provinces_lakes.shp",
+        "id": "hawaiishapelabel",
+        "project": "usa_rectangle_box",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "hawaiishapelabel"
     },
     {
       "geometry": "polygon",
@@ -555,6 +612,24 @@
     {
       "geometry": "polygon",
       "extent": [
+        -178.443593,
+        18.86546,
+        -154.75579199999999,
+        28.517269
+      ],
+      "id": "hawaiivoting",
+      "class": "",
+      "Datasource": {
+        "file": "layers/hawaiivoting/tl_2012_15_vtd10.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "hawaiivoting"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
         -176.684744,
         -14.373764999999999,
         145.830505,
@@ -591,6 +666,27 @@
       "srs": "+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs",
       "advanced": {},
       "name": "akzipcodes"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -160.250403,
+        18.905547,
+        -154.803858,
+        22.239462
+      ],
+      "id": "hawaiizipcodes",
+      "class": "",
+      "Datasource": {
+        "file": "layers/hawaiizipcodes/tl_2013_us_zcta510.shp",
+        "id": "hawaiizipcodes",
+        "project": "usa_rectangle_box",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "hawaiizipcodes"
     },
     {
       "geometry": "polygon",
@@ -739,6 +835,24 @@
     {
       "geometry": "polygon",
       "extent": [
+        -160.250403,
+        18.905547,
+        -154.803858,
+        22.239462
+      ],
+      "id": "hawaiizipcodelabels",
+      "class": "",
+      "Datasource": {
+        "file": "layers/hawaiizipcodelabels/tl_2013_us_zcta510.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "hawaiizipcodelabels"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
         -179.231086,
         -14.601813000000002,
         179.859681,
@@ -792,7 +906,8 @@
       "srs-name": "autodetect",
       "srs": "",
       "advanced": {},
-      "name": "hawaiicounties"
+      "name": "hawaiicounties",
+      "status": "off"
     }
   ],
   "scale": 1,
