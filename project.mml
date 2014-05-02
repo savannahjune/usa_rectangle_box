@@ -48,6 +48,24 @@
     {
       "geometry": "polygon",
       "extent": [
+        -86.618415,
+        26.95804,
+        -64.9897555,
+        35.7205295
+      ],
+      "id": "akshape",
+      "class": "",
+      "Datasource": {
+        "file": "layers/akshape/ne_50m_admin_1_states_provinces_lakes.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "akshape"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
         -157.99118261729797,
         -51.05303741160215,
         178.0338339830011,
@@ -65,6 +83,24 @@
       "srs": "",
       "advanced": {},
       "name": "urbanareas"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -151.29047456695736,
+        30.28881332620299,
+        -73.54035838527672,
+        64.87669103900005
+      ],
+      "id": "akurbanareas",
+      "class": "",
+      "Datasource": {
+        "file": "layers/akurbanareas/ne_10m_urban_areas.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "akurbanareas"
     },
     {
       "geometry": "polygon",
@@ -151,6 +187,24 @@
     {
       "geometry": "linestring",
       "extent": [
+        -176.7640084731439,
+        25.91446093527572,
+        -64.99756566744254,
+        70.2966838677457
+      ],
+      "id": "akroads",
+      "class": "",
+      "Datasource": {
+        "file": "layers/akroads/ne_10m_roads_north_america.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "akroads"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
         -150.08159339101002,
         8.329046942181577,
         -59.94810950429127,
@@ -169,6 +223,24 @@
       "advanced": {},
       "name": "railroads",
       "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -150.08159339101002,
+        29.74228226015329,
+        -67.57750934198938,
+        64.93097565311908
+      ],
+      "id": "akrailroads",
+      "class": "",
+      "Datasource": {
+        "file": "layers/akrailroads/ne_10m_railroads_north_america.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "akrailroads"
     },
     {
       "geometry": "polygon",
@@ -198,6 +270,24 @@
     {
       "geometry": "polygon",
       "extent": [
+        -165.96558168829336,
+        28.71056766469627,
+        -68.98283295776447,
+        70.74699936464324
+      ],
+      "id": "aklakes",
+      "class": "",
+      "Datasource": {
+        "file": "layers/aklakes/ne_10m_lakes.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "aklakes"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
         -167.52107747395834,
         19.057861328125,
         -78.15372721354167,
@@ -216,6 +306,24 @@
       "advanced": {},
       "name": "natparksshape",
       "status": "off"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -167.52107747395834,
+        28.305562337239586,
+        -67.65909830729169,
+        68.65547688802084
+      ],
+      "id": "aknatparksshape",
+      "class": "",
+      "Datasource": {
+        "file": "layers/aknatparksshape/ne_10m_parks_and_protected_lands_area.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "aknatparksshape"
     },
     {
       "geometry": "linestring",
@@ -240,6 +348,24 @@
       "status": "off"
     },
     {
+      "geometry": "linestring",
+      "extent": [
+        -166.31509355377037,
+        14.019822770701632,
+        -33.88844542620301,
+        70.83222077030652
+      ],
+      "id": "akrivers",
+      "class": "",
+      "Datasource": {
+        "file": "layers/akrivers/ne_10m_rivers_north_america.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "akrivers"
+    },
+    {
       "geometry": "polygon",
       "extent": [
         -164.28410994679615,
@@ -257,6 +383,24 @@
       "advanced": {},
       "name": "nalakes",
       "status": "off"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -164.28410994679615,
+        28.121463168356414,
+        -69.44158404902063,
+        67.20361969608783
+      ],
+      "id": "aknalakes",
+      "class": "",
+      "Datasource": {
+        "file": "layers/aknalakes/ne_10m_lakes_north_america.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "aknalakes"
     },
     {
       "geometry": "polygon",
@@ -283,6 +427,24 @@
     {
       "geometry": "polygon",
       "extent": [
+        -173.23683,
+        26.357305,
+        -64.9897555,
+        71.441059
+      ],
+      "id": "akvoting",
+      "class": "",
+      "Datasource": {
+        "file": "layers/akvoting/tl_2012_02_vtd10.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "akvoting"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
         -176.684744,
         -14.373764999999999,
         145.830505,
@@ -301,6 +463,24 @@
       "advanced": {},
       "name": "zipcodes",
       "status": "off"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -176.684744,
+        25.9004045,
+        -64.9897555,
+        71.341324
+      ],
+      "id": "akzipcodes",
+      "class": "",
+      "Datasource": {
+        "file": "layers/akzipcodes/tl_2013_us_zcta510.shp"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs",
+      "advanced": {},
+      "name": "akzipcodes"
     },
     {
       "geometry": "polygon",
@@ -353,6 +533,24 @@
       "status": "off"
     },
     {
+      "geometry": "point",
+      "extent": [
+        -174.20048873095266,
+        26.098244842072262,
+        -65.83199475194724,
+        71.29056968096575
+      ],
+      "id": "akcities",
+      "class": "",
+      "Datasource": {
+        "file": "layers/akcities/ne_10m_populated_places_simple.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "akcities"
+    },
+    {
       "geometry": "polygon",
       "extent": [
         -176.684744,
@@ -370,6 +568,24 @@
       "advanced": {},
       "name": "zipcodeslabels",
       "status": "off"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -176.684744,
+        25.9004045,
+        -64.9897555,
+        71.341324
+      ],
+      "id": "akzipcodelabels",
+      "class": "",
+      "Datasource": {
+        "file": "layers/akzipcodelabels/tl_2013_us_zcta510.shp"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs",
+      "advanced": {},
+      "name": "akzipcodelabels"
     },
     {
       "geometry": "polygon",
@@ -396,61 +612,6 @@
     {
       "geometry": "polygon",
       "extent": [
-        -86.618415,
-        26.95804,
-        -64.9897555,
-        35.7205295
-      ],
-      "id": "akshape",
-      "class": "",
-      "Datasource": {
-        "file": "layers/akshape/ne_50m_admin_1_states_provinces_lakes.shp"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {},
-      "name": "akshape"
-    },
-    {
-      "geometry": "point",
-      "extent": [
-        -174.20048873095266,
-        26.098244842072262,
-        -65.83199475194724,
-        71.29056968096575
-      ],
-      "id": "akcities",
-      "class": "",
-      "Datasource": {
-        "file": "layers/akcities/ne_10m_populated_places_simple.shp"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {},
-      "name": "akcities",
-      "status": "off"
-    },
-    {
-      "geometry": "polygon",
-      "extent": [
-        -165.96558168829336,
-        28.71056766469627,
-        -68.98283295776447,
-        70.74699936464324
-      ],
-      "id": "aklakes",
-      "class": "",
-      "Datasource": {
-        "file": "layers/aklakes/ne_10m_lakes.shp"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {},
-      "name": "aklakes"
-    },
-    {
-      "geometry": "polygon",
-      "extent": [
         -173.23683,
         26.95804,
         -64.9897555,
@@ -465,150 +626,6 @@
       "srs": "",
       "advanced": {},
       "name": "akcounties"
-    },
-    {
-      "geometry": "polygon",
-      "extent": [
-        -164.28410994679615,
-        28.121463168356414,
-        -69.44158404902063,
-        67.20361969608783
-      ],
-      "id": "aknalakes",
-      "class": "",
-      "Datasource": {
-        "file": "layers/aknalakes/ne_10m_lakes_north_america.shp"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {},
-      "name": "aknalakes"
-    },
-    {
-      "geometry": "polygon",
-      "extent": [
-        -167.52107747395834,
-        28.305562337239586,
-        -67.65909830729169,
-        68.65547688802084
-      ],
-      "id": "aknatparksshape",
-      "class": "",
-      "Datasource": {
-        "file": "layers/aknatparksshape/ne_10m_parks_and_protected_lands_area.shp"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {},
-      "name": "aknatparksshape"
-    },
-    {
-      "geometry": "linestring",
-      "extent": [
-        -150.08159339101002,
-        29.74228226015329,
-        -67.57750934198938,
-        64.93097565311908
-      ],
-      "id": "akrailroads",
-      "class": "",
-      "Datasource": {
-        "file": "layers/akrailroads/ne_10m_railroads_north_america.shp"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {},
-      "name": "akrailroads"
-    },
-    {
-      "geometry": "linestring",
-      "extent": [
-        -166.31509355377037,
-        14.019822770701632,
-        -33.88844542620301,
-        70.83222077030652
-      ],
-      "id": "akrivers",
-      "class": "",
-      "Datasource": {
-        "file": "layers/akrivers/ne_10m_rivers_north_america.shp"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {},
-      "name": "akrivers"
-    },
-    {
-      "geometry": "polygon",
-      "extent": [
-        -151.29047456695736,
-        30.28881332620299,
-        -73.54035838527672,
-        64.87669103900005
-      ],
-      "id": "akurbanareas",
-      "class": "",
-      "Datasource": {
-        "file": "layers/akurbanareas/ne_10m_urban_areas.shp"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {},
-      "name": "akurbanareas"
-    },
-    {
-      "geometry": "polygon",
-      "extent": [
-        -173.23683,
-        26.357305,
-        -64.9897555,
-        71.441059
-      ],
-      "id": "akvoting",
-      "class": "",
-      "Datasource": {
-        "file": "layers/akvoting/tl_2012_02_vtd10.shp"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {},
-      "name": "akvoting"
-    },
-    {
-      "geometry": "polygon",
-      "extent": [
-        -176.684744,
-        25.9004045,
-        -64.9897555,
-        71.341324
-      ],
-      "id": "akzipcodes",
-      "class": "",
-      "Datasource": {
-        "file": "layers/akzipcodes/tl_2013_us_zcta510.shp"
-      },
-      "srs-name": "custom",
-      "srs": "+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs",
-      "advanced": {},
-      "name": "akzipcodes"
-    },
-    {
-      "geometry": "polygon",
-      "extent": [
-        -176.684744,
-        25.9004045,
-        -64.9897555,
-        71.341324
-      ],
-      "id": "akzipcodelabels",
-      "class": "",
-      "Datasource": {
-        "file": "layers/akzipcodelabels/tl_2013_us_zcta510.shp"
-      },
-      "srs-name": "custom",
-      "srs": "+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs",
-      "advanced": {},
-      "name": "akzipcodelabels"
     }
   ],
   "scale": 1,

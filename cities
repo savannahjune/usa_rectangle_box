@@ -178,6 +178,72 @@
   line-color: @pedestrian_fill;}
 }
 
+#akroads [zoom > 5] [country = 'United States'] [scalerank < 5] {
+  line-width:1;
+  line-color:@motorway_line;
+}
+
+#akroads [zoom > 7] [country = 'United States'] [scalerank < 7] {
+  [scalerank < 5] {
+  line-color:@motorway_line;
+  line-width:2;}
+  [scalerank < 7] [scalerank > 5] {
+  line-color:@trunk_fill;
+  line-width:1;}   
+}
+
+#akroads [zoom > 8] [country = 'United States'] [scalerank < 9] {
+  line-width:1;
+  [scalerank < 5] {
+  line-color:@motorway_line;}
+  [scalerank < 7] [scalerank >= 5] {
+  line-color:@trunk_fill;}  
+  [scalerank < 9] [scalerank >=7] {
+  line-color: @primary_line;}
+}
+
+#akroads [zoom > 10] [country = 'United States'] [scalerank < 11] {
+  line-width:1;
+  [scalerank < 5] {
+  line-color:@motorway_line;}
+  [scalerank < 7] [scalerank >= 5] {
+  line-color:@trunk_fill;}  
+  [scalerank < 9] [scalerank >=7] {
+  line-color: @primary_line;}
+  [scalerank < 11] [scalerank >=9] {
+  line-color: @secondary_fill;}
+}
+
+#akroads [zoom > 12] [country = 'United States'] [scalerank < 13] {
+  line-width:1;
+  [scalerank < 5] {
+  line-color:@motorway_line;}
+  [scalerank < 7] [scalerank >= 5] {
+  line-color:@trunk_line;}  
+  [scalerank < 9] [scalerank >=7] {
+  line-color: @primary_line;}
+  [scalerank < 11] [scalerank >=9] {
+  line-color: @secondary_fill;}
+  [scalerank < 13] [scalerank >=11] {
+  line-color: @standard_fill;}
+}
+
+#akroads [zoom > 14] [country = 'United States'] [scalerank < 20] {
+  line-width:1;
+  [scalerank < 5] {
+  line-color:@motorway_line;}
+  [scalerank < 7] [scalerank >= 5] {
+  line-color:@trunk_fill;}  
+  [scalerank < 9] [scalerank >=7] {
+  line-color: @primary_line;}
+  [scalerank < 11] [scalerank >=9] {
+  line-color: @secondary_fill;}
+  [scalerank < 13] [scalerank >=11] {
+  line-color: @standard_fill;}
+  [scalerank < 20] [scalerank >=13] {
+  line-color: @pedestrian_fill;}
+}
+
 #railroads [zoom > 7] [sov_a3 = 'USA'] {
   line-width:1;
   line-color:@rail_line;
