@@ -110,6 +110,45 @@
   text-halo-radius:2; 
   text-character-spacing:1;
 }
+
+#hawaiicities [zoom > 5] [sov_a3 = 'USA'] [scalerank < 5]{
+  marker-width:4;
+  marker-fill:black;
+  text-dx:4;
+  text-placements: "E,S,N,W,NE,SE,NW,SW";
+  text-name:'[name]';
+  text-face-name: @futura_med;
+  text-size:15;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-radius:2; 
+  text-character-spacing:1;
+}
+
+#hawaiicities [zoom > 7] [sov_a3 = 'USA'] [scalerank < 8] [scalerank >=5]{
+  marker-width:4;
+  marker-fill:black;
+  text-dx:4;
+  text-placements: "E,S,N,W,NE,SE,NW,SW";
+  text-name:'[name]';
+  text-face-name: @futura_med;
+  text-size:12;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-radius:2; 
+  text-character-spacing:1;
+}
+
+#hawaiicities [zoom > 9] [sov_a3 = 'USA'] [scalerank <= 10]{
+  marker-width:4;
+  marker-fill:black;
+  text-dx:4;
+  text-placements: "E,S,N,W,NE,SE,NW,SW";
+  text-name:'[name]';
+  text-face-name: @futura_med;
+  text-size:10;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-radius:2; 
+  text-character-spacing:1;
+}
  
 
 #roads [zoom > 5] [country = 'United States'] [scalerank < 5] {
@@ -244,12 +283,83 @@
   line-color: @pedestrian_fill;}
 }
 
+#hawaiiroads [zoom > 5] [country = 'United States'] [scalerank < 5] {
+  line-width:1;
+  line-color:@motorway_line;
+}
+
+#hawaiiroads [zoom > 7] [country = 'United States'] [scalerank < 7] {
+  [scalerank < 5] {
+  line-color:@motorway_line;
+  line-width:2;}
+  [scalerank < 7] [scalerank > 5] {
+  line-color:@trunk_fill;
+  line-width:1;}   
+}
+
+#hawaiiroads [zoom > 8] [country = 'United States'] [scalerank < 9] {
+  line-width:1;
+  [scalerank < 5] {
+  line-color:@motorway_line;}
+  [scalerank < 7] [scalerank >= 5] {
+  line-color:@trunk_fill;}  
+  [scalerank < 9] [scalerank >=7] {
+  line-color: @primary_line;}
+}
+
+#hawaiiroads [zoom > 10] [country = 'United States'] [scalerank < 11] {
+  line-width:1;
+  [scalerank < 5] {
+  line-color:@motorway_line;}
+  [scalerank < 7] [scalerank >= 5] {
+  line-color:@trunk_fill;}  
+  [scalerank < 9] [scalerank >=7] {
+  line-color: @primary_line;}
+  [scalerank < 11] [scalerank >=9] {
+  line-color: @secondary_fill;}
+}
+
+#hawaiiroads [zoom > 12] [country = 'United States'] [scalerank < 13] {
+  line-width:1;
+  [scalerank < 5] {
+  line-color:@motorway_line;}
+  [scalerank < 7] [scalerank >= 5] {
+  line-color:@trunk_line;}  
+  [scalerank < 9] [scalerank >=7] {
+  line-color: @primary_line;}
+  [scalerank < 11] [scalerank >=9] {
+  line-color: @secondary_fill;}
+  [scalerank < 13] [scalerank >=11] {
+  line-color: @standard_fill;}
+}
+
+#hawaiiroads [zoom > 14] [country = 'United States'] [scalerank < 20] {
+  line-width:1;
+  [scalerank < 5] {
+  line-color:@motorway_line;}
+  [scalerank < 7] [scalerank >= 5] {
+  line-color:@trunk_fill;}  
+  [scalerank < 9] [scalerank >=7] {
+  line-color: @primary_line;}
+  [scalerank < 11] [scalerank >=9] {
+  line-color: @secondary_fill;}
+  [scalerank < 13] [scalerank >=11] {
+  line-color: @standard_fill;}
+  [scalerank < 20] [scalerank >=13] {
+  line-color: @pedestrian_fill;}
+}
+
 #railroads [zoom > 7] [sov_a3 = 'USA'] {
   line-width:1;
   line-color:@rail_line;
 }
 
 #akrailroads [zoom > 7] [sov_a3 = 'USA'] {
+  line-width:1;
+  line-color:@rail_line;
+}
+
+#hawaiirailroad [zoom > 7] [sov_a3 = 'USA'] {
   line-width:1;
   line-color:@rail_line;
 }

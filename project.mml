@@ -43,7 +43,8 @@
       "advanced": {
         "encoding": "windows-1252"
       },
-      "name": "constates"
+      "name": "constates",
+      "status": "off"
     },
     {
       "geometry": "polygon",
@@ -82,7 +83,8 @@
       "srs-name": "autodetect",
       "srs": "",
       "advanced": {},
-      "name": "urbanareas"
+      "name": "urbanareas",
+      "status": "off"
     },
     {
       "geometry": "polygon",
@@ -205,6 +207,24 @@
     {
       "geometry": "linestring",
       "extent": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "id": "hawaiiroads",
+      "class": "",
+      "Datasource": {
+        "file": "layers/hawaiirivers/ne_10m_rivers_north_america.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "hawaiiroads"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
         -150.08159339101002,
         8.329046942181577,
         -59.94810950429127,
@@ -241,6 +261,24 @@
       "srs": "",
       "advanced": {},
       "name": "akrailroads"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "id": "hawaiirailroad",
+      "class": "",
+      "Datasource": {
+        "file": "layers/hawaiirailroad/ne_10m_railroads_north_america.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "hawaiirailroad"
     },
     {
       "geometry": "polygon",
@@ -288,6 +326,24 @@
     {
       "geometry": "polygon",
       "extent": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "id": "hawaiilakes",
+      "class": "",
+      "Datasource": {
+        "file": "layers/hawaiilakes/ne_10m_lakes.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "hawaiilakes"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
         -167.52107747395834,
         19.057861328125,
         -78.15372721354167,
@@ -324,6 +380,24 @@
       "srs": "",
       "advanced": {},
       "name": "aknatparksshape"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -155.79752604166666,
+        19.057861328125,
+        -155.03946940104166,
+        19.54557291666667
+      ],
+      "id": "hawaiinationalparks",
+      "class": "",
+      "Datasource": {
+        "file": "layers/hawaiinationalparks/ne_10m_parks_and_protected_lands_area.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "hawaiinationalparks"
     },
     {
       "geometry": "linestring",
@@ -366,6 +440,24 @@
       "name": "akrivers"
     },
     {
+      "geometry": "linestring",
+      "extent": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "id": "hawaiirivers",
+      "class": "",
+      "Datasource": {
+        "file": "layers/hawaiirivers/ne_10m_rivers_north_america.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "hawaiirivers"
+    },
+    {
       "geometry": "polygon",
       "extent": [
         -164.28410994679615,
@@ -401,6 +493,24 @@
       "srs": "",
       "advanced": {},
       "name": "aknalakes"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "id": "hawaiinalakes",
+      "class": "",
+      "Datasource": {
+        "file": "layers/hawaiinalakes/ne_10m_lakes_north_america.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "hawaiinalakes"
     },
     {
       "geometry": "polygon",
@@ -508,6 +618,27 @@
       "status": "off"
     },
     {
+      "geometry": "polygon",
+      "extent": [
+        -86.618415,
+        26.95804,
+        -64.9897555,
+        35.7205295
+      ],
+      "id": "akshapelabel",
+      "class": "",
+      "Datasource": {
+        "file": "layers/akshapelabel/ne_50m_admin_1_states_provinces_lakes.shp",
+        "id": "akshapelabel",
+        "project": "usa_rectangle_box",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "akshapelabel"
+    },
+    {
       "geometry": "point",
       "extent": [
         -179.58997888396897,
@@ -549,6 +680,24 @@
       "srs": "",
       "advanced": {},
       "name": "akcities"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -159.37100630901833,
+        19.65236463203928,
+        -155.0900273050949,
+        21.981512267031462
+      ],
+      "id": "hawaiicities",
+      "class": "",
+      "Datasource": {
+        "file": "layers/hawaiicities/ne_10m_populated_places_simple.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "hawaiicities"
     },
     {
       "geometry": "polygon",
@@ -626,6 +775,24 @@
       "srs": "",
       "advanced": {},
       "name": "akcounties"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -178.443593,
+        18.86546,
+        -154.75579199999999,
+        28.517269
+      ],
+      "id": "hawaiicounties",
+      "class": "",
+      "Datasource": {
+        "file": "layers/hawaiicounties/tl_2013_us_county.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "hawaiicounties"
     }
   ],
   "scale": 1,
