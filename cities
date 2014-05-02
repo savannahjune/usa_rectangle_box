@@ -198,6 +198,10 @@
   polygon-fill:darken(@red, 20%);
 }
 
+#akurbanareas [zoom > 8] [scalerank < 10] {
+  polygon-opacity:1;
+  polygon-fill:darken(@red, 20%);
+}
 
 
 

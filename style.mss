@@ -11,7 +11,7 @@
 @green: #c1edb2;
 @turquoise: #8fd9b6;
 @blue: #bad0dd;
-@purple: #ddbee3;
+@purple: #ddbee3; 
 @pink: #b2e0e0;
   //#FBD8D6;
 @water: #86c8d5;
@@ -74,6 +74,13 @@ Map {
   polygon-fill:@red;
 }
 
+#akshape {
+  line-color:@line;
+  line-width:1;
+  polygon-opacity:1;
+  polygon-fill:@red;
+}
+
 #constateslabels [zoom > 3] {
   text-name:"[NAME_1]";
   text-face-name: @futura_med;
@@ -96,6 +103,20 @@ Map {
 }
 
 #rivers [zoom > 7] {
+  line-width:1;
+  line-color:@water;
+  text-name:'[name]';
+  text-face-name: @futura_med;
+  text-size:10;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-radius:2; 
+  text-placement-type:simple;
+  text-placement:line;
+  text-min-distance:1000px;
+  text-max-char-angle-delta: 15;
+}
+
+#akrivers [zoom > 7] {
   line-width:1;
   line-color:@water;
   text-name:'[name]';
