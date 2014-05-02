@@ -335,7 +335,7 @@
 
 #hawaiiroads [zoom > 14] [country = 'United States'] [scalerank < 20] {
   line-width:1;
-  [scalerank < 5] {
+  [scalerank < 5] { 
   line-color:@motorway_line;}
   [scalerank < 7] [scalerank >= 5] {
   line-color:@trunk_fill;}  
@@ -347,7 +347,7 @@
   line-color: @standard_fill;}
   [scalerank < 20] [scalerank >=13] {
   line-color: @pedestrian_fill;}
-}
+} 
 
 #railroads [zoom > 7] [sov_a3 = 'USA'] {
   line-width:1;
@@ -355,11 +355,6 @@
 }
 
 #akrailroads [zoom > 7] [sov_a3 = 'USA'] {
-  line-width:1;
-  line-color:@rail_line;
-}
-
-#hawaiirailroad [zoom > 7] [sov_a3 = 'USA'] {
   line-width:1;
   line-color:@rail_line;
 }

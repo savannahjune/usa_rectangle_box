@@ -43,42 +43,44 @@
       "advanced": {
         "encoding": "windows-1252"
       },
-      "name": "constates",
-      "status": "off"
+      "name": "constates"
     },
     {
       "geometry": "polygon",
       "extent": [
-        -86.618415,
-        26.95804,
-        -64.9897555,
-        35.7205295
+        -178.21759836236586,
+        51.583032669170024,
+        -129.9922353469076,
+        71.40623535327121
       ],
       "id": "akshape",
       "class": "",
       "Datasource": {
-        "file": "layers/akshape/ne_50m_admin_1_states_provinces_lakes.shp"
+        "file": "layers/akshape/usa_state_shapefile.shp",
+        "id": "akshape",
+        "project": "usa_rectangle_box",
+        "srs": "+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs"
       },
-      "srs-name": "autodetect",
-      "srs": "",
+      "srs-name": "custom",
+      "srs": "+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs",
       "advanced": {},
       "name": "akshape"
     },
     {
       "geometry": "polygon",
       "extent": [
-        -177.3904846720835,
-        18.96390918584938,
-        -154.8041875763537,
-        28.221176384689265
+        -160.24240615920556,
+        18.92178634508703,
+        -154.79109601867805,
+        22.229119866772415
       ],
       "id": "hawaiishape",
       "class": "",
       "Datasource": {
-        "file": "layers/hawaiishape/ne_50m_admin_1_states_provinces_lakes.shp"
+        "file": "layers/hawaiishape/usa_state_shapefile.shp"
       },
-      "srs-name": "autodetect",
-      "srs": "",
+      "srs-name": "custom",
+      "srs": "+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs",
       "advanced": {},
       "name": "hawaiishape"
     },
@@ -101,8 +103,7 @@
       "srs-name": "autodetect",
       "srs": "",
       "advanced": {},
-      "name": "urbanareas",
-      "status": "off"
+      "name": "urbanareas"
     },
     {
       "geometry": "polygon",
@@ -240,8 +241,7 @@
       "srs-name": "autodetect",
       "srs": "",
       "advanced": {},
-      "name": "roads",
-      "status": "off"
+      "name": "roads"
     },
     {
       "geometry": "linestring",
@@ -264,15 +264,15 @@
     {
       "geometry": "linestring",
       "extent": [
-        0,
-        0,
-        0,
-        0
+        -160.2345440007807,
+        18.915014966892663,
+        -154.83413826812253,
+        22.226128500112296
       ],
       "id": "hawaiiroads",
       "class": "",
       "Datasource": {
-        "file": "layers/hawaiirivers/ne_10m_rivers_north_america.shp"
+        "file": "layers/hawaiiroads/ne_10m_roads_north_america.shp"
       },
       "srs-name": "autodetect",
       "srs": "",
@@ -298,8 +298,7 @@
       "srs-name": "autodetect",
       "srs": "",
       "advanced": {},
-      "name": "railroads",
-      "status": "off"
+      "name": "railroads"
     },
     {
       "geometry": "linestring",
@@ -318,24 +317,6 @@
       "srs": "",
       "advanced": {},
       "name": "akrailroads"
-    },
-    {
-      "geometry": "linestring",
-      "extent": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "id": "hawaiirailroad",
-      "class": "",
-      "Datasource": {
-        "file": "layers/hawaiirailroad/ne_10m_railroads_north_america.shp"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {},
-      "name": "hawaiirailroad"
     },
     {
       "geometry": "polygon",
@@ -359,8 +340,7 @@
       "advanced": {
         "encoding": "windows-1252"
       },
-      "name": "lakes",
-      "status": "off"
+      "name": "lakes"
     },
     {
       "geometry": "polygon",
@@ -383,24 +363,6 @@
     {
       "geometry": "polygon",
       "extent": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "id": "hawaiilakes",
-      "class": "",
-      "Datasource": {
-        "file": "layers/hawaiilakes/ne_10m_lakes.shp"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {},
-      "name": "hawaiilakes"
-    },
-    {
-      "geometry": "polygon",
-      "extent": [
         -167.52107747395834,
         19.057861328125,
         -78.15372721354167,
@@ -417,8 +379,7 @@
       "srs-name": "autodetect",
       "srs": "",
       "advanced": {},
-      "name": "natparksshape",
-      "status": "off"
+      "name": "natparksshape"
     },
     {
       "geometry": "polygon",
@@ -475,8 +436,7 @@
       "srs-name": "autodetect",
       "srs": "",
       "advanced": {},
-      "name": "rivers",
-      "status": "off"
+      "name": "rivers"
     },
     {
       "geometry": "linestring",
@@ -497,24 +457,6 @@
       "name": "akrivers"
     },
     {
-      "geometry": "linestring",
-      "extent": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "id": "hawaiirivers",
-      "class": "",
-      "Datasource": {
-        "file": "layers/hawaiirivers/ne_10m_rivers_north_america.shp"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {},
-      "name": "hawaiirivers"
-    },
-    {
       "geometry": "polygon",
       "extent": [
         -164.28410994679615,
@@ -530,8 +472,7 @@
       "srs-name": "autodetect",
       "srs": "",
       "advanced": {},
-      "name": "nalakes",
-      "status": "off"
+      "name": "nalakes"
     },
     {
       "geometry": "polygon",
@@ -554,24 +495,6 @@
     {
       "geometry": "polygon",
       "extent": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "id": "hawaiinalakes",
-      "class": "",
-      "Datasource": {
-        "file": "layers/hawaiinalakes/ne_10m_lakes_north_america.shp"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {},
-      "name": "hawaiinalakes"
-    },
-    {
-      "geometry": "polygon",
-      "extent": [
         -124.84897400000001,
         24.396307999999998,
         -66.885444,
@@ -588,8 +511,7 @@
       "srs-name": "autodetect",
       "srs": "",
       "advanced": {},
-      "name": "voting",
-      "status": "off"
+      "name": "voting"
     },
     {
       "geometry": "polygon",
@@ -646,8 +568,7 @@
       "srs-name": "autodetect",
       "srs": "",
       "advanced": {},
-      "name": "zipcodes",
-      "status": "off"
+      "name": "zipcodes"
     },
     {
       "geometry": "polygon",
@@ -710,27 +631,26 @@
       "advanced": {
         "encoding": "windows-1252"
       },
-      "name": "constateslabels",
-      "status": "off"
+      "name": "constateslabels"
     },
     {
       "geometry": "polygon",
       "extent": [
-        -86.618415,
-        26.95804,
-        -64.9897555,
-        35.7205295
+        -178.21759836236586,
+        51.583032669170024,
+        -129.9922353469076,
+        71.40623535327121
       ],
       "id": "akshapelabel",
       "class": "",
       "Datasource": {
-        "file": "layers/akshapelabel/ne_50m_admin_1_states_provinces_lakes.shp",
+        "file": "layers/akshapelabel/usa_state_shapefile.shp",
         "id": "akshapelabel",
         "project": "usa_rectangle_box",
-        "srs": ""
+        "srs": "+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs"
       },
-      "srs-name": "autodetect",
-      "srs": "",
+      "srs-name": "custom",
+      "srs": "+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs",
       "advanced": {},
       "name": "akshapelabel"
     },
@@ -756,8 +676,7 @@
       "advanced": {
         "encoding": "windows-1252"
       },
-      "name": "cities",
-      "status": "off"
+      "name": "cities"
     },
     {
       "geometry": "point",
@@ -811,8 +730,7 @@
       "srs-name": "autodetect",
       "srs": "",
       "advanced": {},
-      "name": "zipcodeslabels",
-      "status": "off"
+      "name": "zipcodeslabels"
     },
     {
       "geometry": "polygon",
@@ -869,8 +787,7 @@
       "srs-name": "custom",
       "srs": "+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs",
       "advanced": {},
-      "name": "counties",
-      "status": "off"
+      "name": "counties"
     },
     {
       "geometry": "polygon",
@@ -906,8 +823,7 @@
       "srs-name": "autodetect",
       "srs": "",
       "advanced": {},
-      "name": "hawaiicounties",
-      "status": "off"
+      "name": "hawaiicounties"
     }
   ],
   "scale": 1,

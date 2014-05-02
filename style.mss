@@ -110,27 +110,24 @@ Map {
   text-character-spacing:1;
 }
 
-/*#akshapelabel [zoom > 3] {
-  text-name:"[NAME_1]";
+#akshapelabel [zoom > 3] {
+  text-name:"[STATE_NAME]";
   text-face-name: @futura_med;
   text-character-spacing:1;
   text-size:12;
   text-halo-fill:rgba(255,255,255,0.5);
   text-halo-radius:2;
-  [NAME_1 = 'Florida'] {
-    text-dx:1;
-    }
 }
 
 #akshapelabel [zoom >= 6] {
-  text-name:"[NAME_1]";
+  text-name:"[STATE_NAME]";
   text-face-name: @futura_med;
   text-size:18;
   text-halo-fill:rgba(255,255,255,0.5);
   text-halo-radius:2;
   text-character-spacing:1;
 }
-*/
+
 
 #hawaiishapelabel [zoom > 3] {
   text-name:"[name]";
@@ -169,20 +166,6 @@ Map {
   text-max-char-angle-delta: 15;
 }
 
-#hawaiirivers [zoom > 7] {
-  line-width:1;
-  line-color:@water;
-  text-name:'[name]';
-  text-face-name: @futura_med;
-  text-size:10;
-  text-halo-fill:rgba(255,255,255,0.5);
-  text-halo-radius:2; 
-  text-placement-type:simple;
-  text-placement:line;
-  text-min-distance:1000px;
-  text-max-char-angle-delta: 15;
-}
-
 #lakes [zoom <= 7] [scalerank < 2] {
   polygon-opacity:1;
   polygon-fill:@water;
@@ -193,7 +176,7 @@ Map {
   text-face-name: @futura_med;
   text-size:10;
   text-halo-fill:rgba(255,255,255,0.5);
-  text-halo-radius:2; 
+  text-halo-radius:2;  
 }
 
 #lakes [zoom > 7] {
@@ -240,39 +223,6 @@ Map {
 }
 
 #aknalakes [zoom > 8] {
-  polygon-opacity:1;
-  polygon-fill:@water;
-  text-name:'[name]';
-  text-face-name: @futura_med;
-  text-size:12;
-  text-halo-fill:rgba(255,255,255,0.5);
-  text-halo-radius:2; 
-}
-
-#hawaiinalakes [zoom > 8] {
-  polygon-opacity:1;
-  polygon-fill:@water;
-  text-name:'[name]';
-  text-face-name: @futura_med;
-  text-size:12;
-  text-halo-fill:rgba(255,255,255,0.5);
-  text-halo-radius:2; 
-}
-
-#hawaiilakes [zoom <= 7] [scalerank < 2] {
-  polygon-opacity:1;
-  polygon-fill:@water;
-}
-
-#hawaiilakes [zoom > 5] [zoom <=7] [scalerank < 2] {
-  text-name:'[name]';
-  text-face-name: @futura_med;
-  text-size:10;
-  text-halo-fill:rgba(255,255,255,0.5);
-  text-halo-radius:2; 
-}
-
-#hawaiilakes [zoom > 7] {
   polygon-opacity:1;
   polygon-fill:@water;
   text-name:'[name]';
