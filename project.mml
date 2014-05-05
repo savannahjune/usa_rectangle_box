@@ -398,8 +398,7 @@
       "srs-name": "autodetect",
       "srs": "",
       "advanced": {},
-      "name": "hawaiizipcodes",
-      "status": "off"
+      "name": "hawaiizipcodes"
     },
     {
       "geometry": "polygon",
@@ -839,6 +838,63 @@
       "srs": "+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs",
       "advanced": {},
       "name": "akshapelabel"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -167.52107747395834,
+        19.057861328125,
+        -78.15372721354167,
+        68.65547688802084
+      ],
+      "id": "natparkslabel",
+      "class": "",
+      "Datasource": {
+        "file": "layers/natparkslabel/ne_10m_parks_and_protected_lands_area.shp",
+        "id": "natparkslabel",
+        "project": "usa_rectangle_box",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "natparkslabel"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -155.79752604166666,
+        19.057861328125,
+        -155.03946940104166,
+        19.54557291666667
+      ],
+      "id": "hawaiinatparklabel",
+      "class": "",
+      "Datasource": {
+        "file": "layers/hawaiinatparklabel/ne_10m_parks_and_protected_lands_area.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "hawaiinatparklabel"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -167.52107747395834,
+        56.61112467447917,
+        -135.31819661458337,
+        68.65547688802084
+      ],
+      "id": "aknatparklabel",
+      "class": "",
+      "Datasource": {
+        "file": "layers/aknatparklabel/ne_10m_parks_and_protected_lands_area.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "aknatparklabel"
     }
   ],
   "scale": 1,

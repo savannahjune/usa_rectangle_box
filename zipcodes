@@ -1,4 +1,4 @@
-/*all styling for zip codes
+/*all styling for zip codes, counties, and voting areas
 */
 
 #zipcodes [zoom > 8] {

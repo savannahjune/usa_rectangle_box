@@ -54,7 +54,7 @@
   text-name:'[name]';
   text-face-name: @futura_med;
   text-size:14;
-  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-fill:rgba(255,255,255,0.75);
   text-halo-radius:2; 
   text-character-spacing:1;
 }
@@ -67,7 +67,7 @@
   text-name:'[name]';
   text-face-name: @futura_med;
   text-size:12;
-  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-fill:rgba(255,255,255,0.75);
   text-halo-radius:2; 
   text-character-spacing:1;
 }
@@ -80,7 +80,7 @@
   text-name:'[name]';
   text-face-name: @futura_med;
   text-size:15;
-  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-fill:rgba(255,255,255,0.75);
   text-halo-radius:2; 
   text-character-spacing:1;
 }
@@ -93,7 +93,7 @@
   text-name:'[name]';
   text-face-name: @futura_med;
   text-size:12;
-  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-fill:rgba(255,255,255,0.75);
   text-halo-radius:2; 
   text-character-spacing:1;
 }
@@ -106,7 +106,7 @@
   text-name:'[name]';
   text-face-name: @futura_med;
   text-size:10;
-  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-fill:rgba(255,255,255,0.75);
   text-halo-radius:2; 
   text-character-spacing:1;
 }
@@ -119,7 +119,7 @@
   text-name:'[name]';
   text-face-name: @futura_med;
   text-size:15;
-  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-fill:rgba(255,255,255,0.75);
   text-halo-radius:2; 
   text-character-spacing:1;
 }
@@ -132,7 +132,7 @@
   text-name:'[name]';
   text-face-name: @futura_med;
   text-size:12;
-  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-fill:rgba(255,255,255,0.75);
   text-halo-radius:2; 
   text-character-spacing:1;
 }
@@ -145,7 +145,7 @@
   text-name:'[name]';
   text-face-name: @futura_med;
   text-size:10;
-  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-fill:rgba(255,255,255,0.75);
   text-halo-radius:2; 
   text-character-spacing:1;
 }

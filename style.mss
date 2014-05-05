@@ -238,25 +238,47 @@ Map {
 #natparksshape [zoom > 5] {
   polygon-opacity:1;
   polygon-fill:@parks;
-  text-name:"[unit_name]";
-  text-face-name: @futura_med;
-  text-size:10;
-  text-halo-fill:rgba(255,255,255,0.5);
-  text-halo-radius:2;
-  text-character-spacing:1;
 }
 
 
 #aknatparksshape [zoom > 5] {
   polygon-opacity:1;
   polygon-fill:@parks;
+}
+
+#hawaiinatparks [zoom > 5] {
+  polygon-opacity:1;
+  polygon-fill:@parks;
+}
+
+#natparkslabel [zoom > 6] {
   text-name:"[unit_name]";
   text-face-name: @futura_med;
   text-size:10;
-  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-fill:rgba(255,255,255,0.75);
   text-halo-radius:2;
   text-character-spacing:1;
 }
+
+#hawaiinatparklabel [zoom > 6] {
+  text-name:"[unit_name]";
+  text-face-name: @futura_med;
+  text-size:10;
+  text-halo-fill:rgba(255,255,255,0.75);
+  text-halo-radius:2;
+  text-character-spacing:1;
+} 
+
+#aknatparklabel [zoom > 6] {
+  text-name:"[unit_name]";
+  text-face-name: @futura_med;
+  text-size:10;
+  text-halo-fill:rgba(255,255,255,0.75);
+  text-halo-radius:2;
+  text-character-spacing:1;
+}  
+
+
 
 
 //+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs
