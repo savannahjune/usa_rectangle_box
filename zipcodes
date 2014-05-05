@@ -123,4 +123,8 @@
   line-width:0.25;
 }
 
+#oregonvoting [zoom > 8] {
+  line-color:black;
+  line-width:0.25;
+}
 

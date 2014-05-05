@@ -78,14 +78,14 @@ Map {
   line-color:@line;
   line-width:1;
   polygon-opacity:1;
-  polygon-fill:lighten(@red, 5%);
+  polygon-fill:lighten(#E2C5AC,5%);
 }
 
 #hawaiishape {
   line-color:@line;
   line-width:1;
   polygon-opacity:1;
-  polygon-fill:@red;
+  polygon-fill:lighten(#E2C5AC,5%);
 }
 
 
@@ -98,6 +98,21 @@ Map {
   text-halo-radius:2;
   [NAME_1 = 'Florida'] {
     text-dx:1;
+    }
+  [NAME_1 = 'Colorado'] {
+    text-dy:10;
+    }
+  [NAME_1 = 'Michigan'] {
+    text-dy:25;
+    text-dx:1;
+    }
+  [NAME_1 = 'Rhode Island'] {
+    text-dy:2;
+    text-dx:8;
+    }
+  [NAME_1 = 'Maryland'] {
+    text-dy:2;
+    text-dx:8;
     }
 }
 
