@@ -48,27 +48,6 @@
     {
       "geometry": "polygon",
       "extent": [
-        -178.21759836236586,
-        51.583032669170024,
-        -129.9922353469076,
-        71.40623535327121
-      ],
-      "id": "akshape",
-      "class": "",
-      "Datasource": {
-        "file": "layers/akshape/usa_state_shapefile.shp",
-        "id": "akshape",
-        "project": "usa_rectangle_box",
-        "srs": "+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs"
-      },
-      "srs-name": "custom",
-      "srs": "+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs",
-      "advanced": {},
-      "name": "akshape"
-    },
-    {
-      "geometry": "polygon",
-      "extent": [
         -160.24240615920556,
         18.92178634508703,
         -154.79109601867805,
@@ -104,24 +83,6 @@
       "srs": "",
       "advanced": {},
       "name": "urbanareas"
-    },
-    {
-      "geometry": "polygon",
-      "extent": [
-        -151.29047456695736,
-        30.28881332620299,
-        -73.54035838527672,
-        64.87669103900005
-      ],
-      "id": "akurbanareas",
-      "class": "",
-      "Datasource": {
-        "file": "layers/akurbanareas/ne_10m_urban_areas.shp"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {},
-      "name": "akurbanareas"
     },
     {
       "geometry": "polygon",
@@ -242,6 +203,45 @@
       "srs": "",
       "advanced": {},
       "name": "natparksshape"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -178.21759836236586,
+        51.583032669170024,
+        -129.9922353469076,
+        71.40623535327121
+      ],
+      "id": "akshape",
+      "class": "",
+      "Datasource": {
+        "file": "layers/akshape/usa_state_shapefile.shp",
+        "id": "akshape",
+        "project": "usa_rectangle_box",
+        "srs": "+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs",
+      "advanced": {},
+      "name": "akshape"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -151.29047456695736,
+        30.28881332620299,
+        -73.54035838527672,
+        64.87669103900005
+      ],
+      "id": "akurbanareas",
+      "class": "",
+      "Datasource": {
+        "file": "layers/akurbanareas/ne_10m_urban_areas.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "akurbanareas"
     },
     {
       "geometry": "polygon",
@@ -398,7 +398,8 @@
       "srs-name": "autodetect",
       "srs": "",
       "advanced": {},
-      "name": "hawaiizipcodes"
+      "name": "hawaiizipcodes",
+      "status": "off"
     },
     {
       "geometry": "polygon",
@@ -419,8 +420,7 @@
       "srs-name": "custom",
       "srs": "+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs",
       "advanced": {},
-      "name": "counties",
-      "status": "off"
+      "name": "counties"
     },
     {
       "geometry": "polygon",
@@ -438,8 +438,7 @@
       "srs-name": "autodetect",
       "srs": "",
       "advanced": {},
-      "name": "akcounties",
-      "status": "off"
+      "name": "akcounties"
     },
     {
       "geometry": "polygon",
@@ -457,8 +456,7 @@
       "srs-name": "autodetect",
       "srs": "",
       "advanced": {},
-      "name": "hawaiicounties",
-      "status": "off"
+      "name": "hawaiicounties"
     },
     {
       "geometry": "linestring",
@@ -774,7 +772,8 @@
       "srs-name": "custom",
       "srs": "+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs",
       "advanced": {},
-      "name": "akzipcodelabels"
+      "name": "akzipcodelabels",
+      "status": "off"
     },
     {
       "geometry": "polygon",
@@ -792,7 +791,8 @@
       "srs-name": "autodetect",
       "srs": "",
       "advanced": {},
-      "name": "hawaiizipcodelabels"
+      "name": "hawaiizipcodelabels",
+      "status": "off"
     },
     {
       "geometry": "polygon",
@@ -895,6 +895,63 @@
       "srs": "",
       "advanced": {},
       "name": "aknatparklabel"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.231086,
+        -14.601813000000002,
+        179.859681,
+        71.441059
+      ],
+      "id": "countylabels",
+      "class": "",
+      "Datasource": {
+        "file": "layers/countylabels/tl_2013_us_county.shp",
+        "id": "countylabels",
+        "project": "usa_rectangle_box",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "countylabels"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.231086,
+        51.175092,
+        179.859681,
+        71.441059
+      ],
+      "id": "akcountylabels",
+      "class": "",
+      "Datasource": {
+        "file": "layers/akcountylabels/tl_2013_us_county.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "akcountylabels"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -178.443593,
+        18.86546,
+        -154.75579199999999,
+        28.517269
+      ],
+      "id": "hawaiicountylabels",
+      "class": "",
+      "Datasource": {
+        "file": "layers/hawaiicountylabels/tl_2013_us_county.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "hawaiicountylabels"
     }
   ],
   "scale": 1,
