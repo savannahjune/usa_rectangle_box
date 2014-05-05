@@ -71,14 +71,14 @@ Map {
   line-color:@line;
   line-width:1;
   polygon-opacity:1;
-  polygon-fill:@red;
+  polygon-fill:lighten(#E2C5AC,5%);
 }
 
 #akshape {
   line-color:@line;
   line-width:1;
   polygon-opacity:1;
-  polygon-fill:@red;
+  polygon-fill:lighten(@red, 5%);
 }
 
 #hawaiishape {
@@ -110,11 +110,11 @@ Map {
   text-character-spacing:1;
 }
 
-#akshapelabel [zoom > 3] {
+#akshapelabel [zoom > 2] {
   text-name:"[STATE_NAME]";
   text-face-name: @futura_med;
   text-character-spacing:1;
-  text-size:12;
+  text-size:16;
   text-halo-fill:rgba(255,255,255,0.5);
   text-halo-radius:2;
 }
@@ -122,14 +122,14 @@ Map {
 #akshapelabel [zoom >= 6] {
   text-name:"[STATE_NAME]";
   text-face-name: @futura_med;
-  text-size:18;
+  text-size:22;
   text-halo-fill:rgba(255,255,255,0.5);
   text-halo-radius:2;
   text-character-spacing:1;
 }
 
 
-#hawaiishapelabel [zoom > 3] {
+#hawaiishapelabel [zoom > 2] {
   text-name:"[name]";
   text-face-name: @futura_med;
   text-character-spacing:1;
@@ -199,12 +199,14 @@ Map {
   text-halo-radius:2; 
 }
 
-#aklakes [zoom <= 7] [scalerank < 2] {
+#aklakes [zoom < 7] //[scalerank < 5] 
+{
   polygon-opacity:1;
   polygon-fill:@water;
 }
 
-#aklakes [zoom > 5] [zoom <=7] [scalerank < 2] {
+#aklakes [zoom > 6] //[scalerank < 5] 
+{
   text-name:'[name]';
   text-face-name: @futura_med;
   text-size:10;
