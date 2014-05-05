@@ -105,27 +105,6 @@
     {
       "geometry": "polygon",
       "extent": [
-        -177.3904846720835,
-        18.96390918584938,
-        -154.8041875763537,
-        28.221176384689265
-      ],
-      "id": "hawaiishapelabel",
-      "class": "",
-      "Datasource": {
-        "file": "layers/hawaiishapelabel/ne_50m_admin_1_states_provinces_lakes.shp",
-        "id": "hawaiishapelabel",
-        "project": "usa_rectangle_box",
-        "srs": ""
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {},
-      "name": "hawaiishapelabel"
-    },
-    {
-      "geometry": "polygon",
-      "extent": [
         -141.00686645507812,
         41.6769256591798,
         -52.618888854980455,
@@ -203,6 +182,27 @@
       "srs": "",
       "advanced": {},
       "name": "natparksshape"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -177.3904846720835,
+        18.96390918584938,
+        -154.8041875763537,
+        28.221176384689265
+      ],
+      "id": "hawaiishapelabel",
+      "class": "",
+      "Datasource": {
+        "file": "layers/hawaiishapelabel/ne_50m_admin_1_states_provinces_lakes.shp",
+        "id": "hawaiishapelabel",
+        "project": "usa_rectangle_box",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "hawaiishapelabel"
     },
     {
       "geometry": "polygon",
@@ -457,6 +457,27 @@
       "srs": "",
       "advanced": {},
       "name": "hawaiicounties"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -88.47322699999997,
+        30.14442499999999,
+        -84.88824599999998,
+        35.00802799999999
+      ],
+      "id": "alabamacounties",
+      "class": "",
+      "Datasource": {
+        "file": "layers/alabamacounties/tigerline_shapefile_2010_2010_state_alabama_2010_census_county_and_equivalent_state-based.shp",
+        "id": "alabamacounties",
+        "project": "usa_rectangle_box",
+        "srs": "+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs",
+      "advanced": {},
+      "name": "alabamacounties"
     },
     {
       "geometry": "linestring",
@@ -952,6 +973,24 @@
       "srs": "",
       "advanced": {},
       "name": "hawaiicountylabels"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -88.47322699999997,
+        30.14442499999999,
+        -84.88824599999998,
+        35.00802799999999
+      ],
+      "id": "alabamacountylabels",
+      "class": "",
+      "Datasource": {
+        "file": "layers/alabamacountylabels/tigerline_shapefile_2010_2010_state_alabama_2010_census_county_and_equivalent_state-based.shp"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs",
+      "advanced": {},
+      "name": "alabamacountylabels"
     }
   ],
   "scale": 1,
