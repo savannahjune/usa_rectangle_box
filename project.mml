@@ -48,15 +48,15 @@
     {
       "geometry": "polygon",
       "extent": [
-        -160.24240615920556,
-        18.92178634508703,
-        -154.79109601867805,
-        22.229119866772415
+        -178.30436616299988,
+        18.906117143000117,
+        -154.81406356599993,
+        28.401678575000105
       ],
       "id": "hawaiishape",
       "class": "",
       "Datasource": {
-        "file": "layers/hawaiishape/usa_state_shapefile.shp"
+        "file": "layers/hawaiishape/ne_10m_admin_1_states_provinces.shp"
       },
       "srs-name": "custom",
       "srs": "+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs",
@@ -290,7 +290,7 @@
       "id": "voting",
       "class": "",
       "Datasource": {
-        "file": "layers/voting/result.shp",
+        "file": "layers/voting/combinedvoting.shp",
         "id": "voting",
         "project": "usa_rectangle_box",
         "srs": ""
@@ -582,15 +582,15 @@
     {
       "geometry": "polygon",
       "extent": [
-        -179.231086,
-        -14.601813000000002,
-        179.859681,
+        -178.443593,
+        18.86546,
+        -66.885444,
         71.441059
       ],
       "id": "counties",
       "class": "",
       "Datasource": {
-        "file": "layers/counties/tl_2013_us_county.shp",
+        "file": "layers/counties/combiningcounties.shp",
         "id": "counties",
         "project": "usa_rectangle_box",
         "srs": "+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs"
@@ -598,7 +598,8 @@
       "srs-name": "custom",
       "srs": "+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs",
       "advanced": {},
-      "name": "counties"
+      "name": "counties",
+      "status": "off"
     },
     {
       "geometry": "polygon",
@@ -635,27 +636,6 @@
       "srs": "",
       "advanced": {},
       "name": "hawaiicounties"
-    },
-    {
-      "geometry": "polygon",
-      "extent": [
-        -88.47322699999997,
-        30.14442499999999,
-        -84.88824599999998,
-        35.00802799999999
-      ],
-      "id": "alabamacounties",
-      "class": "",
-      "Datasource": {
-        "file": "layers/alabamacounties/tigerline_shapefile_2010_2010_state_alabama_2010_census_county_and_equivalent_state-based.shp",
-        "id": "alabamacounties",
-        "project": "usa_rectangle_box",
-        "srs": "+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs"
-      },
-      "srs-name": "custom",
-      "srs": "+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs",
-      "advanced": {},
-      "name": "alabamacounties"
     },
     {
       "geometry": "linestring",
@@ -915,15 +895,15 @@
     {
       "geometry": "polygon",
       "extent": [
-        -179.231086,
-        -14.601813000000002,
-        179.859681,
+        -178.443593,
+        18.86546,
+        -66.88544399999999,
         71.441059
       ],
       "id": "countylabels",
       "class": "",
       "Datasource": {
-        "file": "layers/countylabels/tl_2013_us_county.shp",
+        "file": "layers/countylabels/combiningcounties.shp",
         "id": "countylabels",
         "project": "usa_rectangle_box",
         "srs": ""
@@ -931,7 +911,8 @@
       "srs-name": "autodetect",
       "srs": "",
       "advanced": {},
-      "name": "countylabels"
+      "name": "countylabels",
+      "status": "off"
     },
     {
       "geometry": "polygon",
@@ -968,42 +949,6 @@
       "srs": "",
       "advanced": {},
       "name": "hawaiicountylabels"
-    },
-    {
-      "geometry": "polygon",
-      "extent": [
-        -88.47322699999997,
-        30.14442499999999,
-        -84.88824599999998,
-        35.00802799999999
-      ],
-      "id": "alabamacountylabels",
-      "class": "",
-      "Datasource": {
-        "file": "layers/alabamacountylabels/tigerline_shapefile_2010_2010_state_alabama_2010_census_county_and_equivalent_state-based.shp"
-      },
-      "srs-name": "custom",
-      "srs": "+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs",
-      "advanced": {},
-      "name": "alabamacountylabels"
-    },
-    {
-      "geometry": "polygon",
-      "extent": [
-        -124.70354100000002,
-        41.991794,
-        -116.463262,
-        46.299099
-      ],
-      "id": "oregonvoting",
-      "class": "",
-      "Datasource": {
-        "file": "layers/oregonvoting/tl_2013_41_bg.shp"
-      },
-      "srs-name": "WGS84",
-      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
-      "advanced": {},
-      "name": "oregonvoting"
     }
   ],
   "scale": 1,

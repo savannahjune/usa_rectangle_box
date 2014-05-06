@@ -13,7 +13,7 @@
 @blue: #bad0dd;
 @purple: #ddbee3; 
 @pink: #b2e0e0;
-  //#FBD8D6;
+  //#FBD8D6; 
 @water: #86c8d5;
 @grey: #E7E7E7;
 @line: white;
